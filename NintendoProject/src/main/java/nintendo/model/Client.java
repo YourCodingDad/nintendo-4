@@ -5,11 +5,13 @@ import java.util.List;
 public class Client {
 	private String nom;
 	private String prenom;
-	private List<String> listeAchats;
+	private List<Achat> listeAchats;
 	
 	
 	
-	public Client(String nom, String prenom, List<String> listeAchats) {
+	
+
+	public Client(String nom, String prenom, List<Achat> listeAchats) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
@@ -32,11 +34,13 @@ public class Client {
 		this.prenom = prenom;
 	}
 
-	public List<String> getListeAchats() {
+	
+
+	public List<Achat> getListeAchats() {
 		return listeAchats;
 	}
 
-	public void setListeAchats(List<String> listeAchats) {
+	public void setListeAchats(List<Achat> listeAchats) {
 		this.listeAchats = listeAchats;
 	}
 
@@ -45,6 +49,5 @@ public class Client {
 		return "Client [nom=" + nom + ", prenom=" + prenom + ", listeAchats=" + listeAchats + "]";
 	}
 
-	
 	
 }
