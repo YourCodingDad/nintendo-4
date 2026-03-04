@@ -1,12 +1,10 @@
 package nintendo.model;
 
-<<<<<<< HEAD
+
 import java.time.LocalDate;
 
-public class Console {
-=======
 public abstract class Console {
->>>>>>> origin/main
+
 
 	private String nom;
 	private Integer prix;
