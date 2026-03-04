@@ -1,5 +1,6 @@
 package nintendo.test;
 
+import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -18,7 +19,8 @@ public class Test {
 		Jeu skyrimRemastered = new Jeu("Skyrim Remastered", xbox);
 		Jeu womanSimulator = new Jeu("Woman Simulator", pc);
 		
-		
+		Client c1 = new Client("Doe","Jane",);
+		Client c2 = new Client("Doe","John");
 	}
 
 }
