@@ -1,5 +1,6 @@
 package nintendo.test;
 
+import nintendo.model.Boutique;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -18,6 +19,7 @@ public class Test {
 		Jeu skyrimRemastered = new Jeu("Skyrim Remastered", xbox);
 		Jeu womanSimulator = new Jeu("Woman Simulator", pc);
 		
+		Boutique jeux_video = new Boutique("Video Futur", "7 rue de la clé 59000 Lille");
 		
 	}
 
